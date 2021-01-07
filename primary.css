@@ -1,0 +1,265 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans';
+    min-height: 200vh;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+@media all and (min-width: 992px) {
+    .navbar { 
+        padding-top: 0; 
+        padding-bottom: 0; 
+    }
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+    .navbar .megamenu {
+        left: 0;
+        right: 0; 
+        width: 100%; 
+        padding: 20px;  
+    }
+    .navbar .nav-link { 
+        padding-top: 1rem; 
+        padding-bottom: 1rem;  }
+}
+@media (max-width: 992px) {
+    .bulletin {
+        display: none;
+    }
+    .navbar-default {
+        background:#000 !important;
+        opacity: 90% !important;
+    }
+    .dropdownsubtitles {
+        display: none;
+    }
+    .pack {
+        width: 300px;
+    }
+    .sec {
+        width: 300px;
+    }
+    .jumbotron {
+        background-image: url('contents/images/jumbotronprimary-portrait.png') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        background-size: 100% 100%;
+        min-height: 800px;
+    }
+}
+.logo {
+    height: 70px;
+    width: 80px;
+}
+.logo:hover {
+    height: 80px;
+    width: 90px;
+    transition: height 0.2s, width 0.2s;
+}
+.navbar {
+    border: 0;
+    line-height: 1.42857143;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-family: 'Lato';
+}
+.navbar li .nav-link, .navbar .navbar-brand {
+    font-size: 22px; 
+    font-family: 'Lato'; 
+    color: white;
+    text-shadow: 2px 1px #000000;
+}
+.navbar-nav li .nav-link:hover, .navbar-nav li.active .nav-link {
+    color: #424242;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: #ffba5f;
+    transition: color 0.2s, font-size 0.2s, font-weight 0.2s, background-color 0.2s;
+}
+.navpack {
+    font-size: 22px; 
+    font-family: 'Lato'; 
+    color: white;
+    text-shadow: 2px 1px #000000;
+}
+.dropdown {
+    text-align: center;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+}
+.navbar-default.scrolled{
+    background:#000;
+    opacity: 90%;
+}
+.drop {
+    border-radius: 0px;
+    border: #f3672e 3px;
+    background-color: #0a0a0a;
+    opacity: 85%;
+    font-family: 'Lato';
+    color: #fff;
+}
+.dropdowntitles {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #f3672e;
+}
+.dropdownsubtitles {
+    font-family: 'Montserrat';
+    font-size: 16x;
+    color: #fff;
+    line-height: 1.42857143;
+}
+.dropdownsubtitles:hover {
+    font-size: 18px;
+    background-color: #f3672e;
+    color: #fff;
+    transition: font-size 0.2s, background-color 0.2s;
+}
+.sec {
+    width: 300px;
+}
+.pack {
+    width: 500px;
+}
+.jumbotron {
+    background-image: url('contents/images/jumbotronprimary.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: 100% 100%;
+    min-height: 800px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.primaryheader {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    color: #000000;
+}
+.primaryheader:hover {
+    font-size: 35px;
+    transition: font-size 0.3s;
+}
+.primarytext {
+    font-size: 25px;
+    font-family: 'Lato';
+    color: #000000;
+}
+.bulletin {
+    height: 30px;
+    width: 30px;
+}
+.bulletin:hover {
+    height: 32px;
+    width: 32px;
+    transition: height 0.3s, width 0.3s;
+}
+.card-header {
+    background-color: transparent;
+    border: transparent;
+    color: #0a0a0a;
+}
+.card {
+    background-color: transparent;
+    border: transparent;
+}
+.primaryexpand {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Lato';
+    padding: 0px 8px;
+}
+.primaryexpand:hover {
+    background-color: #f3672e;
+    outline: #000000 solid 3px;
+    transition: background-color 0.3s, outline 0.3s;
+}
+.contentheader {
+    font-family: 'Montserrat';
+    color: #0a0a0a;
+    font-size: 25px;
+}
+.contentheader:hover {
+    font-size: 27px;
+    text-decoration: none;
+    transition: font-size 0.3s;
+}
+.descheader {
+    font-family: 'Lato';
+    font-size: 22px;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+.descsubheader {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+.desctext {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+.desclist {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+.listimg {
+    height: 90%;
+    width: 100%;
+}
+.footer {
+    background-color: #0a0a0a;
+    opacity: 75%;
+    font-family: 'Lato';
+}
+.footerheading {
+    font-size: 18px;
+    color: #f3672e;
+    font-family: 'Montserrat';
+}
+.footersubheading {
+    font-size: 16px;
+    color: #f2f3ff;
+    font-family: 'Montserrat';
+}
+.footersubheading2 {
+    font-size: 14px;
+    color: #f2f3ff;
+    font-family: 'Montserrat';
+}
+.footertext {
+    font-size: 12px;
+    color: #f2f3ff;
+    font-family: 'Montserrat';
+}
