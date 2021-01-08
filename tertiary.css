@@ -56,6 +56,80 @@ body {
         background-size: 100% 100%;
         min-height: 800px;
     }
+    .logo {
+        height: 50px;
+        width: 60px;
+    }
+    .logo:hover {
+        height: 60px;
+        width: 70px;
+    }
+    .navbar li .nav-link, .navbar .navbar-brand {
+        font-size: 18px !important; 
+    }
+    .navbar-nav li .nav-link:hover, .navbar-nav li.active .nav-link {
+        font-size: 20px !important;
+    }
+    .navpack {
+        font-size: 20px !important; 
+    }
+    .dropdowntitles {
+        font-size: 14px !important;
+    }
+    .dropdownsubtitles {
+        font-size: 12x !important;
+    }
+    .dropdownsubtitles:hover {
+        font-size: 13px !important;
+    }
+    .primaryheader {
+        font-size: 22px !important;
+    }
+    .primaryheader:hover {
+        font-size: 23px !important;
+    }
+    .primarytext {
+        font-size: 20px !important;
+    }
+    .primaryexpand {
+        font-size: 22px !important;
+    }
+    .main-title {
+        font-size: 30px !important; 
+    }
+    .main-subtitle {
+        font-size: 25px !important;
+    }
+    .contentheader {
+        font-size: 18px !important;
+    }
+    .contentheader:hover {
+        font-size: 20px !important;
+    }
+    .descheader {
+        font-size: 12px !important;
+    }
+    .descsubheader {
+        font-size: 10px !important;
+    }
+    .desctext {
+        font-size: 10px !important;
+    }
+    .desclist {
+        font-size: 10px !important;
+    }
+    .footerheading {
+        font-size: 18px !important;
+    }
+    .footersubheading {
+        font-size: 16px !important;
+    }
+    .footersubheading2 {
+        font-size: 14px !important;
+    }
+    .footertext {
+        font-size: 12px !important;
+    }    
 }
 .logo {
     height: 70px;
